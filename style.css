@@ -18,7 +18,7 @@ nav{
 nav span {
     float: right;
     height: auto;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .sticky {
     position: fixed;
@@ -103,26 +103,53 @@ img{
 /* Experience-section */
 
 .body-container .experience-section{
-    padding: 11% 0%;
+    padding: 12% 5%;
     display: flex;
     flex-direction: row;
 }
-.body-containe .experience-section div{
+.body-container .experience-section div h4{
+    font-size: 3vh;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+}
+.body-container .experience-section div span{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+}
+.body-container .experience-section div{
     display: inline;
-    padding: 10px;
+    padding: 5%;
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1.2px;
+    font-size: 1rem;
 }
 
 /* Skills-section */
 
 .body-container .skills-section{
-    padding: 11% 0%;
-    display: flex;
-    flex-direction: row;
+    padding: 11% 5%;
 }
-.body-containe .skills-section div{
-    display: inline;
+.body-container .skills-section div{
     padding: 10px;
 }
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;} /* Green */
+  .css {width: 90%; background-color: #2196F3;} /* Blue */
+  .python {width: 95%; background-color: #f44336;} /* Red */
+  .js {width: 60%; background-color: #808080;} 
 
 /* contact-section */
 
@@ -131,7 +158,7 @@ img{
     display: flex;
     flex-direction: row;
 }
-.body-containe .contact-section div{
+.body-container .contact-section div{
     display: inline;
     padding: 10px;
 }
