@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:bisque;
+}
+
+/* Body */
+.body-container{
+    margin: 2% 15%;
+}
+
+
+/* Nav bar*/
+nav{
+    height: 70px;
+}
+nav span {
+    float: right;
+    height: auto;
+    margin-top: 10px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+}
+nav .nav-link{
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.4vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #1D1C14;
+}
+
+.active{
+    font-size: 2.8vw;
+    font-weight: 700;
+    color: #7D7962;
+}
+nav a:hover{
+    text-decoration-color: crimson;
+}
+
+
+/* Profile section */
+.body-container .profile-section {
+    margin-top:7%;
+    margin-bottom:15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.profile-section .img-container{
+    padding: 10%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.profile-section .text-container{
+    width: 100%;
+    margin: 25% 0%;
+    height: 50%;
+}
+.profile-section .text-container p{
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 75%;
+    border-radius: 25%;
+    margin-top: 2%;
+}
+.txt-type>.txt {
+    border-right: 0.1rem solid #777;
+    color: #60556F;
+    font-weight: 500;
+}
+
+
+
+/* About-section */
+
+.body-container .about-section{
+    padding: 25% 5%;
+    margin:auto 0%;
+}
+.body-container .about-section .title{
+    font-size: 5vh;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+}
+.body-container .about-section .title-contents{
+    padding: 5%;
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1.2px;
+    font-size: 1.2rem;
+}
+
+/* Experience-section */
+
+.body-container .experience-section{
+    padding: 11% 0%;
+    display: flex;
+    flex-direction: row;
+}
+.body-containe .experience-section div{
+    display: inline;
+    padding: 10px;
+}
+
+/* Skills-section */
+
+.body-container .skills-section{
+    padding: 11% 0%;
+    display: flex;
+    flex-direction: row;
+}
+.body-containe .skills-section div{
+    display: inline;
+    padding: 10px;
+}
+
+/* contact-section */
+
+.body-container .contact-section{
+    padding: 11% 0%;
+    display: flex;
+    flex-direction: row;
+}
+.body-containe .contact-section div{
+    display: inline;
+    padding: 10px;
+}
